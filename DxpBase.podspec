@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.module_name  = "DxpBase"
   spec.name         = "DxpBase"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Dxp Base"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/HelloGitHub123/DxpBase.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/HelloGitHub123/DxpBase.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -143,12 +143,12 @@ Pod::Spec.new do |spec|
   # spec.dependency 'Masonry'
   # spec.dependency 'MJRefresh'
 
-  pod 'DXPNetWorkingManagerLib'
-  pod 'DXPToolsLib'
-	pod 'DXPAnalyticsLib'
-	pod 'DxpPromotionDialog'
-	pod 'DxpUserManagement'
-	pod 'DxpPush'
+  spec.dependency 'DXPNetWorkingManagerLib'
+  spec.dependency 'DXPToolsLib'
+	spec.dependency 'DXPAnalyticsLib'
+	spec.dependency 'DxpPromotionDialog'
+	spec.dependency 'DxpUserManagement'
+	spec.dependency 'DxpPush'
   
 
   # spec.library   = "iconv"
